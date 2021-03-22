@@ -1,4 +1,4 @@
-The Fontepx - One Word Pad.
+The Fontepx - OneWordPad.
 
 A spreadsheet no macros that does one/many time pad type encryptions.
 A word or group of words upto a total of 16 characters and an eight digit number 
@@ -10,6 +10,6 @@ Enter text upto sixteen characters in Sheet1 cell B2. Use / character instead of
 UPDATE: OWP now has Multi-Encrypt/Decrypt. 27 lines of 64 characters each line can have its own permutated character set. Total 1728 characters. Entry of line batches starts at A80. Encrypted at B80 and the permutated character sets start at J10. Cell C3 switches between message lines starting at A80  if C3 is an ‘a’ or A’ and encryption of lines starting at B80 if C3 is ‘b’ or ‘B’. Click these cells and change C3 to an ‘A’ or ‘B’ and the line number in D3 (background color red). The permuted character set used for each lines encryption and decryption is changed by changing the value in G1 (background color red).  Example: to encrypt a line of text in cell A85 set cell C3 to A and D3 to 85. Set G1 to 15 that is line 5 in the permutated character set list. Cell F3 shows the encryption, cell F4 the decryption if decrypting. Right click and copy these cells then select were to paste by 
 right click - Paste Special – Unformatted text on a cell.
 
-Each time a new word is entered into  Sheet1 cell B2 or a new X value is entered into Sheet1 cells E1 to H1, OWP will update and the character set permutations automatically placed into J10 down to J37 in the Multi Encrypt sheet.
+Each time a new word is entered into  Sheet1 cell B2 or a new X value is entered into Sheet1 cells E1 to H1, OWP will update and the character set permutations automatically placed into J10 down to J37 in the Multi_Encrypt_64 sheet.
 
 ![image](https://user-images.githubusercontent.com/6797961/111641671-4805a980-87f5-11eb-9a9a-c4da38016817.png)
